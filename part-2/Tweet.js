@@ -1,10 +1,8 @@
-const Tweet = (props) => {
-	return (
-		<ul>
-			<li>{props.name}</li>
-			<li>username:@{props.username}</li>
-			<li>date:{props.date}</li>
-			<li>message:{props.message}</li>
-		</ul>
-	);
-};
+const Tweet = (props) => (
+	<ul>
+		<li>{props.name}</li>
+		<li>username:@{props.username}</li>
+		<li>date:{props.date}</li>
+		<li>message:{props.message}</li>
+	</ul>
+);
